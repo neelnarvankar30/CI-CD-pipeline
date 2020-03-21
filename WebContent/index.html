@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- head -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Saifuddin Telia">
+
+    <title>SWE645 Dummy Form</title>
+
+    <!-- css link -->
+    <link type="text/css" rel="stylesheet" href="./css/stylesheet.css">
+
+    <!-- script for icons used in the footer -->
+    <script src="https://kit.fontawesome.com/fc6815fb34.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="text-box">
+            <h1 id="title">Registration Form</h1>
+        </div>
+    </header>
+
+    <!-- main container for the form -->
+    <div class="container">
+        <form id="survey-form" method="POST">
+
+            <!-- first name -->
+            <div class="labels">
+                <label id="fname-label" for="name">First Name</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="name" name="name" placeholder="Enter Your First Name" required autofocus>
+            </div>
+
+            <!-- last name -->
+            <div class="labels">
+                <label id="lname-label" for="name">Last Name</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="name" name="name" placeholder="Enter Your Last Name" required autofocus>
+            </div>
+
+            <!-- address -->
+            <div class="labels">
+                <label for="address">Address</label>
+            </div>
+            <div class="input-tab">
+                <textarea class="input-field" id="address" name="address" placeholder="Enter Your Address" required autofocus></textarea>
+            </div>
+
+            <!-- city -->
+            <div class="labels">
+                <label id="city-label" for="city">City</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="city" name="city" placeholder="Enter Your City" required autofocus>
+            </div>
+
+            <!-- state -->
+            <div class="labels">
+                <label id="state-label" for="state">State</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="text" id="state" name="state" placeholder="Enter Your State" required autofocus>
+            </div>
+
+            <!-- zip -->
+            <div class="labels">
+                <label id="zip-label" for="city">Zip</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="number" id="zip" name="zip" placeholder="Enter Your Zip" required autofocus>
+            </div>
+
+            <!-- phone -->
+            <div class="labels">
+                <label id="phone-label" for="city">Phone Number</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="number" id="phone" name="phone" placeholder="Enter Your Phone Number" required autofocus>
+            </div>
+
+            <!-- email -->
+            <div class="labels">
+                <label id="email-label" for="email">Email</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="email" id="email" name="email" placeholder="username@email.com" required autofocus>
+            </div>
+
+            <!-- date -->
+            <div class="labels">
+                <label id="date-label" for="date">Date Of Survey</label>
+            </div>
+            <div class="input-tab">
+                <input class="input-field" type="date" id="date" name="date" required autofocus>
+            </div>
+
+            <!-- checkbox -->
+            <div class="labels">
+                <br>
+                <label>What do you like most about the campus?<br>(Check all that apply)</label>
+            </div>
+            <div class="input-tab">
+                <br>
+                <input type="checkbox" name="student" value="student">Students<br>
+                <input type="checkbox" name="location" value="location">Location<br>
+                <input type="checkbox" name="campus" value="campus">Campus<br>
+                <input type="checkbox" name="atmosphere" value="atmosphere">Atmosphere<br>
+                <input type="checkbox" name="dorms" value="dorms">Dorm Rooms<br>
+                <input type="checkbox" name="sports" value="sports">Sports<br>
+            </div>
+
+            <!-- options -->
+            <div class="labels">
+                <br>
+                <label>How did you become interested in our university?</label>
+            </div>
+            <div class="input-tab">
+                <br>
+                <input type="radio" name="radio-button" value="friends">Friends<br>
+                <input type="radio" name="radio-button" value="tv">Television<br>
+                <input type="radio" name="radio-button" value="internet">Internet<br>
+                <input type="radio" name="radio-button" value="other">Other<br>
+            </div>
+
+            <!-- dropdown -->
+            <div class="labels">
+                <label for="dropdown">How likely are you to recommend this university to others?</label>
+            </div>
+            <div class="input-tab">
+                <select id="dropdown" name="recommend">
+			<option disabled value selected>Select an option</option>
+			<option value="veryLikely">Very Likely</option>
+			<option value="likely">Likely</option>
+			<option value="unlikely">Unlikely</option>
+            </div>
+
+            <!-- raffle -->
+            <div class="labels">
+                <label for="raffle">Enter 10 comma seperated values from 1 - 100 to win a free movie ticket!</label>
+            </div>
+            <div class="input-tab">
+                <textarea class="input-field" id="raffle" name="raffle" placeholder="Try Your Luck To Win The Raffle!"></textarea>
+            </div>
+
+			<!-- comments -->
+            <div class="labels">
+                <label for="comments">Tell us more</label></div>
+            <div class="input-tab">
+                <textarea class="input-field" id="comments" name="comments" placeholder="Enter Your Comments"></textarea>
+            </div>
+
+			<!-- buttons -->
+            <div class="btn">
+                <button id="submit" type="submit">Submit</button>
+                <button id="cancel" type="reset">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+
+	<!-- footer -->
+    <footer>
+        <div class="contact">
+            <a href="https://github.com/saifuddin42" target="_blank">
+                <span class="icon">
+			<i class="fab fa-github"></i>
+		  </span>
+            </a>
+            <a href="https://www.linkedin.com/in/saifuddintelia" target="_blank">
+                <span class="icon">
+			<i class="fab fa-linkedin"></i>
+		  </span>
+            </a>
+        </div>
+
+        <p>Developed by Saifuddin Telia, Copyright &copy; 2020</p>
+    </footer>
+</body>

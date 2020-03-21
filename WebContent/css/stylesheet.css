@@ -1,0 +1,233 @@
+/* Google Font */
+
+@import url("https://fonts.googleapis.com/css?family=Abel");
+
+/* body and page attributes */
+
+body,
+html {
+    color: #fff;
+    font-family: "Abel", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: blue;
+}
+
+
+/*  global text box attributes */
+
+.text-box {
+    background-color: rgba(117, 117, 117, 0.5);
+    margin: 2em auto;
+    padding: 20px;
+    width: 90%;
+    border: 5px solid blue;
+}
+
+
+/* global h1 attributes */
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    color: blue;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 1em;
+    font-weight: bold;
+}
+
+
+/* global p attributes */
+
+p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+
+/* global hr attributes */
+
+hr {
+    width: 70%;
+    margin: 10px auto;
+}
+
+
+/* header container attributes */
+
+.container {
+    background-color: rgba(117, 117, 117, 0.5);
+    margin: auto;
+    width: 90%;
+    padding: 1em;
+    border: 5px solid blue;
+}
+
+
+/* form attributes */
+
+#survey-form {
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
+
+/* all labels */
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+
+/* div attributes for input types */
+
+.input-tab {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    margin-left: 10px;
+}
+
+
+/* input type attributes */
+
+.input-field {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    margin: 18px 0 0 10px;
+    border: 1px solid #4a64b9;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+/* placeholder attributes */
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+/* input margin attributes */
+
+input {
+    margin: 7px;
+}
+
+
+/* dropdown attributes */
+
+#dropdown {
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0 10px 10px;
+    border: 1px solid #4a64b9;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+
+/* button class attributes */
+
+.btn {
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* button attributes */
+
+button {
+    background-color: #4a64b9;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: inherit;
+    padding: 10px 15px;
+    border: 1px solid;
+}
+
+button:hover {
+    background-color: #303f6e;
+}
+
+
+/* footer attributes */
+
+footer {
+    text-align: center;
+    font-size: 17px;
+    margin: 20px;
+}
+
+footer a {
+    color: #4a64b9;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #6283f0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 17px;
+    color: black;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: blanchedalmond;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .labels {
+        width: 100%;
+        text-align: left;
+    }
+    .input-tab {
+        width: 100%;
+        float: left;
+        margin-left: -10px;
+    }
+    .input-field {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+        margin: auto;
+    }
+}
